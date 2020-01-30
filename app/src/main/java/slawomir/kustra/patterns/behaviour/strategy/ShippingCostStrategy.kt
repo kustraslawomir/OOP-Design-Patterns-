@@ -1,4 +1,4 @@
-package slawomir.kustra.patterns.strategy
+package slawomir.kustra.patterns.behaviour.strategy
 
 abstract class ShippingCostStrategy(val salesOrder: SalesOrder) {
 

@@ -1,4 +1,4 @@
-package slawomir.kustra.patterns.strategy.model
+package slawomir.kustra.patterns.behaviour.strategy.model
 
 const val BOOK = 0
 const val COMPUTER = 0

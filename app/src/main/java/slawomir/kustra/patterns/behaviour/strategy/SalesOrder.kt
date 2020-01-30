@@ -1,10 +1,10 @@
-package slawomir.kustra.patterns.strategy
+package slawomir.kustra.patterns.behaviour.strategy
 
-import slawomir.kustra.patterns.strategy.model.BOOK
-import slawomir.kustra.patterns.strategy.model.Product
-import slawomir.kustra.patterns.strategy.shippingcost.BooksPromoShippingCost
-import slawomir.kustra.patterns.strategy.shippingcost.InternationalShippingCost
-import slawomir.kustra.patterns.strategy.shippingcost.StandardShippingCost
+import slawomir.kustra.patterns.behaviour.strategy.model.BOOK
+import slawomir.kustra.patterns.behaviour.strategy.model.Product
+import slawomir.kustra.patterns.behaviour.strategy.shippingcost.BooksPromoShippingCost
+import slawomir.kustra.patterns.behaviour.strategy.shippingcost.InternationalShippingCost
+import slawomir.kustra.patterns.behaviour.strategy.shippingcost.StandardShippingCost
 import slawomir.utils.Country
 
 abstract class SalesOrder(private val country: String) {
