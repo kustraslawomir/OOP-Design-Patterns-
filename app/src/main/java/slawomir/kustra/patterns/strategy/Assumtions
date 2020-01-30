@@ -1,0 +1,7 @@
+Scenario:
+1.) Standard order includes 15$ shipping cost.
+2.) If client order only books shipping cost is 5$.
+3.) If order price is equals or greater than 200 shipping cost is 0$.
+4.) International shipping of light items costs 50$.
+5.) International shipping of heavy items (above  50) cost 70$.
+
